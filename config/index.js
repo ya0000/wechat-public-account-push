@@ -64,7 +64,7 @@ export const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oyCFz6KE5ySJDX3Ebln-gEnq9Cuk",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "Fq_VduDG4DLMMVVpZnL1FytJh1sN2qWARJQ0b2gPGGY",
+      useTemplateId: "5gzlPgUeEnGACtrwqeCumP09MgRkiDBueH9PzVIveWY",
       // 所在省份
       province: "湖北",
       // 所在城市
@@ -78,18 +78,18 @@ export const USER_CONFIG = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "夏宝", "year": "2002", "date": "06-22"},
-        {"type": "在一起", "name": "是我们", "year": "2022", "date": "04-15"},
+        {"type": "*生日", "name": "夏宝", "year": "2002", "date": "09-22"},
+        {"type": "节日", "name": "纪念日", "year": "2022", "date": "04-15"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "夏宝", "year": "2002", "date": "06-22"},
-        {"type": "节日", "name": "在一起已经", "year": "2022", "date": "04-15"},
+        {"type": "生日", "name": "夏宝", "year": "2002", "date": "09-22"},
+        {"type": "节日", "name": "在一起纪念日", "year": "2022", "date": "04-15"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        {"keyword": "love_day", date: "2022-04-15"},
-        // 纪念日
-        {"keyword": "marry_day", date: "2022-04-15"},
+        {"keyword": "love_day", date: "2022-09-08"},
+        // 结婚纪念日
+        {"keyword": "marry_day", date: "2022-09-09"},
         // 退伍日
         {"keyword": "ex_day", date: "2022-09-10"},
       ]
